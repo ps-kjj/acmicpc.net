@@ -1,3 +1,4 @@
+// 좌표 정렬하기
 use std::io;
 use std::fmt::Write;
 use std::cmp::Ordering;
