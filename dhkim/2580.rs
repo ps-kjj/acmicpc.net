@@ -66,6 +66,7 @@ fn go(sudoku: &mut [[usize; 9]], blanks: &[(usize, usize)]) -> bool {
 
     false
 }
+
 fn main() {
     let mut sudoku = [[0usize; 9]; 9];
     let mut blanks = Vec::new();
