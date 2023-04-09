@@ -8,9 +8,9 @@ for i in range(int(sys.stdin.readline().rstrip())):
     cmd = sys.stdin.readline().rstrip()
     if cmd == 'L' and leftDeque:
         rightDeque.appendleft(leftDeque.pop())
-    if cmd == 'D' and rightDeque:
+    elif cmd == 'D' and rightDeque:
         leftDeque.append(rightDeque.popleft())
-    if cmd == 'B' and leftDeque:
+    elif cmd == 'B' and leftDeque:
         leftDeque.pop()
     elif cmd.startswith('P '):
         leftDeque.append(cmd[2:])
