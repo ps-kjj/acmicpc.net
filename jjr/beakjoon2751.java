@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class beakjoono2751 {
+public class beakjoon2751 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();
@@ -27,7 +27,7 @@ public class beakjoono2751 {
 // 우선순위 큐 사용
 // import java.util.*;
 
-// public class Main {
+// public class beakjoon2751 {
 //      public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         StringBuilder sb = new StringBuilder();
